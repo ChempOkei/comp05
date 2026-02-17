@@ -1,0 +1,58 @@
+/* Класс в котором находятся все карточки можно сделать в табличном варианте */
+.cardAll {
+    color: #FFFFFF;
+    display: grid;
+}
+@media only screen and (min-width:768px) {
+    .cardAll {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (min-width:1920px) {
+    .cardAll {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+/* Сама карточка в которой находится вся информация */
+.card {
+    text-align: center;
+    padding: 16px;
+}
+.card img {
+    max-width: 250px;
+}
+/* Имя, жанр, разработчик, рейтинг, цена */
+.cardName {
+    font-size: 18pt;
+    font-family: Roboto;
+}
+.cardGenre {
+    font-family: Moonserrat;
+    font-size: medium;
+}
+.cardDev {
+    font-family: Moonserrat;
+    font-size: medium;
+}
+.cardRate img {
+    border-radius: 5px;
+    filter: invert(0.1);
+}
+.cardPrice {
+    font-size: medium;
+}
+
+.gameFilterMob select {
+    margin: 6px;
+    color: #FFFFFF;
+}
+h3 {
+    margin: 5px;
+    color: #FFFFFF;
+}
+.searchGame {
+    color:#FFFFFF;
+}
+.searchGame input {
+    color: #FFFFFF;
+}

@@ -1,0 +1,9 @@
+@import "styles/font.css"; /* Подключение шрифта */
+@import "styles/style_light.css"; /* Импортируем основной стиль */
+@import "styles/navig_light.css"; /* Навигация */
+@import "styles/burger_light.css"; /* Бургер */
+@import "styles/slider_light.css"; /* Слайдер */
+@import "styles/infogr_light.css"; /* Ипорт стиля инфографики */
+@import "styles/card_light.css"; /* Импорт стиля карточек */
+@import "styles/partners_light.css"; /* Партнеры */
+@import "styles/podval_light.css"; /* Подвал */

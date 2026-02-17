@@ -1,0 +1,36 @@
+/* Слайдер */
+.sliderAll {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    color: #212529;
+    text-align: center;
+}
+/* Устанавливаем нормальное разрешение для изображения слайдера */
+.sliderAll img {
+    width: 400px;
+}
+.sliderButton a {
+    border-radius: 5px;
+    padding: 2px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #FF6B35;
+}
+.sliderAll input {
+    display: none;
+}
+.labels {
+    color: #FFFFFF;
+    text-align: center;
+}
+/* Скроем инпуты */
+#sliderContrImg1 {
+    display: none;
+}
+#sliderContrImg2 {
+    display: none;
+}
+#sliderContrImg3 {
+    display: none;
+}

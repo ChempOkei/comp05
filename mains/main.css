@@ -1,0 +1,9 @@
+@import "styles/font.css"; /* Подключение шрифта */
+@import "styles/style.css"; /* Импортируем основной стиль */
+@import "styles/navig.css"; /* Навигация */
+@import "styles/burger.css"; /* Бургер */
+@import "styles/slider.css"; /* Слайдер */
+@import "styles/infogr.css"; /* Ипорт стиля инфографики */
+@import "styles/card.css"; /* Импорт стиля карточек */
+@import "styles/partners.css"; /* Партнеры */
+@import "styles/podval.css"; /* Подвал */

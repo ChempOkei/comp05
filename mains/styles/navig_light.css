@@ -1,0 +1,34 @@
+/* Логотип */
+.LogoBG img {
+    border-radius: 5px;
+    position: absolute;
+    left: 2px;
+}
+/* Навигация */
+.navig {
+    text-align: center;
+    padding: 20px;
+    background-color: #212529;
+    transition: 0.5s;
+}
+.navig a {
+    transition: 0.5s;
+    padding: 3px;
+    text-decoration: none;
+    color: #212529;
+}
+/* Навигационные кнопки при наведении */
+.navig a:hover {
+    transition: 0.5s;
+    color: #6C757D;
+}
+/* Настроим для устройств с другими экранами */
+@media only screen and (max-width: 768px) {
+    .navig a {
+        display: none;
+    }
+    .navig {
+        transition: 0.5s;
+        padding: 25px;
+    }
+}

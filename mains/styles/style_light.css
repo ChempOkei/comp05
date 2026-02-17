@@ -1,0 +1,6 @@
+/* Убираем margin и устанавливаем определенный цвет фона */
+* {
+    background-color: #F8F9FA;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,30 @@
+.pageProfileAll {
+    text-align: left;
+    color: #ffffff;
+    font-family: Roboto;
+    display: grid;
+}
+.profileAll {
+    margin: 5px;
+}
+.profileAll div {
+    background-color: #1A2238;
+    padding: 4px;
+    border-radius: 5px;
+}
+@media only screen and (max-width:1920px) {
+    .pageProfileAll {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .pageProfileAll {
+        grid-template-columns: 1fr;
+    }
+}
+button {
+    color: #ffffff;
+}
+select {
+    color: #ffffff;
+}

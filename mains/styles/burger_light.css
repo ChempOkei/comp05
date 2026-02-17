@@ -1,0 +1,27 @@
+.burgerAll {
+    z-index: 100;
+    position: fixed;
+}
+.burgerAll a {
+    margin: 5px;
+    color: #212529;
+}
+.inBurger {
+    display: none;
+}
+input[type=checkbox] {
+    display: none;
+}
+#burgerImgLab {
+    border-radius: 5px;
+    background-color: rgb(92, 73, 49);
+    padding: 20px;
+}
+input:checked ~ .inBurger {
+    display: block;
+}
+@media only screen and (min-width:768px) {
+    #burgerImgLab {
+        display: none;
+    }
+}

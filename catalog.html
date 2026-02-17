@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="mains/mainForCatalog.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Логотип BestGames -->
+        <div class="LogoBG"><img src="media/images/icons/logoBG.svg" alt="Логотип BestGames"></div>
+        <!-- Навигация -->
+        <div class="navig">
+            <a href="catalog.html">Поиск</a>
+            <a href="login.html">Войти</a>
+            <a href="profile.html">Личный кабинет</a>
+            <a href="catalog.html">Каталог игр</a>
+        </div>
+        </header>
+        <!-- Бургер -->
+        <div class="burgerAll">
+            <input type="checkbox" id="burgerImg">
+            <label for="burgerImg" id="burgerImgLab"><!-- тут должно быть изображение бургера --></label>
+            <div class="inBurger">
+                <a href="catalog.html">Поиск</a><br>
+                <a href="login.html">Войти</a><br>
+                <a href="profile.html">Личный кабинет</a><br>
+                <a href="catalog.html">Каталог игр</a>
+            </div>
+        </div>
+<main>
+    <!-- Каталог -->
+
+<!-- Фильтр -->
+<h3>Фильтр</h3>
+<div class="gameFilterMob">
+    <select name="Game" id="filter">
+        <option value="genre">RPG</option>
+        <option value="genre">Action</option>
+        <option value="genre">Souls-like RPG</option>
+    </select>
+</div>
+
+
+<!-- Карточки --> 
+<div class="cardAll">
+    <div class="card">
+        <div><img src="media/images/games/image1.jpg" alt="GameCard"></div>
+        <div class="cardName">Cyberpunk 2077</div> <!-- Название игры -->
+        <div class="cardGenre">Жанр: Action/RPG</div> <!-- Жанр -->
+        <div class="cardDev">Разработчик: CD Projekt Red</div> <!-- Разработчики -->
+        <div class="cardRate">  <!-- Рейтинг в звёздах -->
+            <img src="media/images/icons/star.svg" alt="star">
+            <img src="media/images/icons/star.svg" alt="star">
+            <img src="media/images/icons/star.svg" alt="star">
+            <img src="media/images/icons/star.svg" alt="star">
+        </div> 
+        <div class="cardPrice">Цена: 2 999 ₽</div> <!-- Цена -->
+        <div class="cardBody"><a href="catalog.html">Подробнее</a></div> <!-- Ссылка кнопка для перехода на страницу с описанием игры -->
+    </div>
+    <div class="card">
+        <div><img src="media/images/games/image2.jpg" alt="GameCard"></div>
+        <div class="cardName">Elden Ring</div> <!-- Название игры -->
+        <div class="cardGenre">Souls-like RPG</div> <!-- Жанр -->
+        <div class="cardDev">FromSoftware</div> <!-- Разработчики -->
+        <div class="cardRate">  <!-- Рейтинг в звёздах -->
+            <img src="media/images/icons/star.svg" alt="star">
+            <img src="media/images/icons/star.svg" alt="star">
+            <img src="media/images/icons/star.svg" alt="star">
+            <img src="media/images/icons/star.svg" alt="star">
+            <img src="media/images/icons/star.svg" alt="star">
+        </div> 
+        <div class="cardPrice">Цена: 3 499 ₽</div> <!-- Цена -->
+        <div class="cardBody"><a href="catalog.html">Подробнее</a></div> <!-- Ссылка кнопка для перехода на страницу с описанием игры -->
+    </div>
+    <div class="card">
+        <div><img src="media/images/games/image3.jpg" alt="GameCard"></div>
+        <div class="cardName">The Witcher 3: Wild Hunt</div> <!-- Название игры -->
+        <div class="cardGenre">RPG</div> <!-- Жанр -->
+        <div class="cardDev">CD Projekt Red</div> <!-- Разработчики -->
+        <div class="cardRate">  <!-- Рейтинг в звёздах -->
+            <img src="media/images/icons/star.svg" alt="star">
+            <img src="media/images/icons/star.svg" alt="star">
+            <img src="media/images/icons/star.svg" alt="star">
+            <img src="media/images/icons/star.svg" alt="star">
+            <img src="media/images/icons/star.svg" alt="star">
+        </div> 
+        <div class="cardPrice">Цена: 1 299 ₽</div> <!-- Цена -->
+        <div class="cardBody"><a href="catalog.html">Подробнее</a></div> <!-- Ссылка кнопка для перехода на страницу с описанием игры -->
+    </div>
+    <div class="card">
+        <div><img src="media/images/games/image4.jpg" alt="GameCard"></div>
+        <div class="cardName">Assassin's Creed Valhalla</div> <!-- Название игры -->
+        <div class="cardGenre">Action/RPG</div> <!-- Жанр -->
+        <div class="cardDev">Ubisoft</div> <!-- Разработчики -->
+        <div class="cardRate"> <!-- Рейтинг в звёздах -->
+            <img src="media/images/icons/star.svg" alt="star">
+            <img src="media/images/icons/star.svg" alt="star">
+            <img src="media/images/icons/star.svg" alt="star">
+            <img src="media/images/icons/star.svg" alt="star">
+        </div> 
+        <div class="cardPrice">Цена: 2 799 ₽</div> <!-- Цена -->
+        <div class="cardBody"><a href="catalog.html">Подробнее</a></div> <!-- Ссылка кнопка для перехода на страницу с описанием игры -->
+    </div>
+    <div class="card">
+        <div><img src="media/images/games/image5.jpg" alt="GameCard"></div>
+        <div class="cardName">Diablo IV</div> <!-- Название игры -->
+        <div class="cardGenre">Action/RPG</div> <!-- Жанр -->
+        <div class="cardDev">Blizzard Entertainment</div> <!-- Разработчики -->
+        <div class="cardRate">  <!-- Рейтинг в звёздах -->
+            <img src="media/images/icons/star.svg" alt="star">
+            <img src="media/images/icons/star.svg" alt="star">
+            <img src="media/images/icons/star.svg" alt="star">
+            <img src="media/images/icons/star.svg" alt="star">
+        </div> 
+        <div class="cardPrice">Цена: 3 999 ₽</div> <!-- Цена -->
+        <div class="cardBody"><a href="catalog.html">Подробнее</a></div> <!-- Ссылка кнопка для перехода на страницу с описанием игры -->
+    </div>
+    </div>
+
+<div class="searchGame">
+    Найти игру: <input type="search">
+</div>
+</main>
+</body>
+</html>

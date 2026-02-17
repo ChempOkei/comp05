@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="mains/mainForAdmin.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Админ панель</title>
+</head>
+<body>
+        <!-- Header -->
+        <header>
+            <!-- Логотип BestGames -->
+            <div class="LogoBG"><img src="media/images/icons/logoBG.svg" alt="Логотип BestGames"></div>
+            <!-- Навигация -->
+            <div class="navig">
+                <a href="catalog.html">Поиск</a>
+                <a href="login.html">Войти</a>
+                <a href="profile.html">Личный кабинет</a>
+                <a href="catalog.html">Каталог игр</a>
+            </div>
+            </header>
+            <!-- Бургер -->
+            <div class="burgerAll">
+                <input type="checkbox" id="burgerImg">
+                <label for="burgerImg" id="burgerImgLab"><!-- тут должно быть изображение бургера --></label>
+                <div class="inBurger">
+                    <a href="catalog.html">Поиск</a><br>
+                    <a href="login.html">Войти</a><br>
+                    <a href="profile.html">Личный кабинет</a><br>
+                    <a href="catalog.html">Каталог игр</a>
+                </div>
+            </div>
+<!-- Админ панель -->
+<div class="adminAll">
+    <form action="catalog.html">
+        <div>Название игры: <input type="text" required></div>
+        <div>Жанр: <input type="text" required></div>
+        <div>Изображение: <input type="file" required> </div>
+        <div>Компания-разработчик: <input type="text" required></div>
+        <div>Описание: <textarea name="bodyAdmin" id="kk" cols="30" rows="10" required></textarea></div>
+        <div>Стоимость:  <input type="text" required></div>
+        <button>Добавить</button>
+    </form>
+</div>
+</body>
+</html>

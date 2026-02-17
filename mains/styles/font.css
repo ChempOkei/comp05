@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Moonserrat;
+    font-style: normal;
+    font-weight: normal;
+    src: 
+    url(/media/fonts/Montserrat/static/Montserrat-Black.ttf) format(TrueType);
+    
+}
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    src: 
+    url(/media/fonts/Roboto/static/Roboto-Black.ttf) format(TrueType);
+}

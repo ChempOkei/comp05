@@ -1,0 +1,35 @@
+/* Слайдер */
+.sliderAll {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    color: #FFFFFF;
+    text-align: center;
+}
+.sliderAll img {
+    width: 400px;
+}
+.sliderButton a {
+    border-radius: 5px;
+    padding: 2px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #FF6B35;
+}
+
+.sliderAll input {
+    display: none;
+}
+.labels {
+    color: #FFFFFF;
+    text-align: center;
+}
+#sliderContrImg1 {
+    display: none;
+}
+#sliderContrImg2 {
+    display: none;
+}
+#sliderContrImg3 {
+    display: none;
+}

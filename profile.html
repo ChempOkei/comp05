@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="mains/mainForProfile.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Логотип BestGames -->
+        <div class="LogoBG"><img src="media/images/icons/logoBG.svg" alt="Логотип BestGames"></div>
+        <!-- Навигация -->
+        <div class="navig">
+            <a href="catalog.html">Поиск</a>
+            <a href="login.html">Войти</a>
+            <a href="profile.html">Личный кабинет</a>
+            <a href="catalog.html">Каталог игр</a>
+        </div>
+        </header>
+        <!-- Бургер -->
+        <div class="burgerAll">
+            <input type="checkbox" id="burgerImg">
+            <label for="burgerImg" id="burgerImgLab"><!-- тут должно быть изображение бургера --></label>
+            <div class="inBurger">
+                <a href="catalog.html">Поиск</a><br>
+                <a href="login.html">Войти</a><br>
+                <a href="profile.html">Личный кабинет</a><br>
+                <a href="catalog.html">Каталог игр</a>
+            </div>
+        </div>
+        <main>
+<!-- Личный кабинет -->
+<div class="pageProfileAll">
+<!-- Информация о пользователе -->
+    <div class="profileAll">
+    <h4>Информация о пользователе</h4>
+    <div>Имя: Иван</div>
+    <div>Фамилия: Петров</div>
+    <div>Email: ivan.petrov@example.com</div>
+    <div>Дата рождения: 15.05.1998</div>
+    <div>Телефон: +7 (900) 123-45-67</div>
+</div>
+<!-- История покупок -->
+<div class="profileAll">
+    <h4>История покупок</h4>
+    <div><div class="profileHistObj">Дата покупки: 15.10.2023 </div><div class="profileHistObj">Игра: Cyberpunk 2077 </div><div class="profileHistObj">Стоимость: 2 999 ₽</div></div>
+    <div><div class="profileHistObj">Дата покупки: 10.10.2023 </div><div class="profileHistObj">Игра: Elden Ring </div><div class="profileHistObj">Стоимость: 3 499 ₽</div></div>
+    <div><div class="profileHistObj">Дата покупки: 05.10.2023 </div><div class="profileHistObj">Игра: The Witcher 3: Wild Hunt </div><div class="profileHistObj">Стоимость: 1 299 ₽</div></div>
+    <div><div class="profileHistObj">Дата покупки: 01.10.2023 </div><div class="profileHistObj">Игра: Diablo IV  </div><div class="profileHistObj">Стоимость: 3 999 ₽</div></div>
+</div>
+<!-- Настройки профиля -->
+<div class="profileAll">
+    <h4>Настройки профиля</h4>
+    <button>Сменить пароль</button>
+    <div> Сменить тему <br>
+    <select name="Theme" id="Changer">
+        <option value="dark">Темная</option>
+        <option value="light">Светлая</option>
+    </select>
+</div>    
+</div>
+</div>
+</main>
+</body>
+</html>
