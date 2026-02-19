@@ -1,0 +1,62 @@
+<template>
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/auth.css" />
+  </head>
+  <body>
+    <main class="auth-container">
+      <div class="auth-card">
+        <div class="auth-header">
+          <h1>Авторизация</h1>
+        </div>
+
+        <form class="auth-form">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              class="auth-input"
+              placeholder="example@mail.com"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="password">Пароль</label>
+            <input
+              type="password"
+              id="password"
+              class="auth-input"
+              placeholder="password"
+            />
+          </div>
+
+          <button type="submit" class="auth-btn">Войти</button>
+        </form>
+
+        <div class="auth-footer">
+          <span>Нет аккаунта?</span>
+          <a href="register.vue" class="auth-link">Зарегистрироваться</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+</template>
+<script>
+export default {
+  data() {
+    return {
+      
+    }
+  },
+  methods: {
+
+  }
+}
+</script>
