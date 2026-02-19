@@ -1,0 +1,2 @@
+1. Зайти в phpmyadmin
+2. Сделать Импорт Server.sql
